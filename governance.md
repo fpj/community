@@ -1,8 +1,8 @@
 # Pravega Project Governance
-Pravega is an code repository organization hosted by CNCF comprising repositories supporting and forming an ecosystem for streaming data. All repositories under the Pravega organization are driven by the bylaws described in this document. This document covers the structure of the various groups that form Pravega and the processes used to govern the organization.
+Pravega is a code-repository organization hosted by CNCF comprising repositories supporting and forming an ecosystem for streaming data. All repositories under the Pravega organization are driven by the bylaws described in this document. This document covers the structure of the various groups that form Pravega and the processes used across the organization ranging from code contributions to voting and changes to governance. 
 
 ## Mission
-Pravega targets the development of software for streaming data, with a focus on storage. It is core to our mission to develop and grow a thriving community of software developers. The community drives the technical direction of Pravega via open discussions and votings. By design, very few actions are private. It accepts contributions from any interested party as long as such a contribution is performed according to the project Code of Conduct. The Pravega community praises diversity and inclusion.
+Pravega targets the development of software for streaming data, with a special focus on storage. It is core to our mission to develop and grow a thriving community of software developers. The community drives the technical direction of Pravega via open discussions and votings; by design, very few actions are private. It accepts contributions from any interested party as long as such a contribution is performed according to the project Code of Conduct. The Pravega community aims to be diverse and inclusive. 
 
 ## Code of Conduct
 Pravega follows the CNCF Code of Conduct:
@@ -29,7 +29,7 @@ The following are email lists available to the project:
 
 Any topic that requires discussion should use the prefix `[DISCUSS]` in the email subject. For example, say that the release manager of an upcoming release wants to discuss what is going to be in that release. The release manager starts an email thread with subject `[DISCUSS] Issues to be included in version x.y.z`. Vote email threads should be prefixed with `[VOTE]` as discussed below.
 
-It is good practice to put deadlines for contributors to respond. We use a minimum of 72 hours, but it can be longer depending on the matter. The email must clearly say what the deadline is to close the thread.
+It is necessary to include deadlines for responses to any given thread. The minimum time given to responders depends on the action, and the initial email must clearly say what the deadline is to close the thread.
 
 ## New Committers and Steering Committee members 
 New committeers and Steering Committee members are voted by the Steering Committee. The Committer Teams are free to propose new committers to the Steering Committee. Proposals must provide evidence of the contributions of the proposed developer to justify the committership offer. The Steering Committee will discuss and vote such proposals privately.
@@ -78,6 +78,6 @@ Code change | Lazy Approval | Committer | Public | 1
 
 To start a vote, send a message to the appropriate email list and prefix the subject with `[VOTE]`. For example, if contributors are expected to vote on a release candidate, then the subject should be `[VOTE] Release x.y.z Candidate 0`. Votes for new committers and Steering Committee must also be prefixed accordingly.
 
-The initial vote message must contain the deadline for contributors to vote. Once the dealine has passed, the initiator can decide to conclude or extend it as needed. One reason for extending is not having enough votes.
+The initial vote message must contain the deadline for contributors to vote. Once the deadline has passed, the initiator can decide to conclude or extend it as needed. One reason for extending is not having enough votes.
 
 Once the vote completes, the initiator should send a message with a subject prefixed with `[RESULT][VOTE]` that states the result of the vote and summarizes the votes cast.
