@@ -34,7 +34,7 @@ It is good practice to put deadlines for contributors to respond. We use a minim
 ## New Committers and Steering Committee members 
 New committeers and Steering Committee members are voted by the Steering Committee. The Committer Teams are free to propose new committers to the Steering Committee. Proposals must provide evidence of the contributions of the proposed developer to justify the committership offer. The Steering Committee will discuss and vote such proposals privately.
 
-If a Steering Committee member wants to propose Joe as a new committer and wants to discuss Joe's merits before calling a vote, the member can start an email thread in the private list with title `[DISCUSS] Joe as new committer of Core Team`. Once it 
+If a Steering Committee member wants to propose Joe as a new committer and wants to discuss Joe's merits before calling a vote, the member can start an email thread in the private list with title `[DISCUSS] Joe as new committer of Core Team`. Once the thread receives enough comments or the deadline stated in the proposal message passes, the member can start a `[VOTE]` thread for the committer. The decision on whether the vote passes or not depends on the rules described in the next section. 
 
 ## Decision making
 
