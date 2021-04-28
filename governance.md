@@ -4,6 +4,11 @@ Pravega is an code repository organization hosted by CNCF comprising repositorie
 ## Mission
 Pravega targets the development of software for streaming data, with a focus on storage. It is core to our mission to develop and grow a thriving community of software developers. The community drives the technical direction of Pravega via open discussions and votings. By design, very few actions are private. It accepts contributions from any interested party as long as such a contribution is performed according to the project Code of Conduct. The Pravega community praises diversity and inclusion.
 
+## Code of Conduct
+Pravega follows the CNCF Code of Conduct:
+
+https://github.com/cncf/foundation/blob/master/code-of-conduct.md
+
 ## Structure
 The project comprises two main groups of contributors:
 
