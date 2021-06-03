@@ -1,8 +1,8 @@
 # Pravega Project Governance
-Pravega is a code-repository organization hosted by CNCF comprising repositories supporting and forming an ecosystem for streaming data. All repositories under the Pravega organization are driven by the bylaws described in this document. This document covers the structure of the various groups that form Pravega and the processes used across the organization ranging from code contributions to voting and changes to governance. 
+Pravega is a code-repository organization hosted by CNCF comprising repositories supporting and forming an ecosystem for streaming data. All repositories under the Pravega organization are driven by the bylaws described in this document. This document covers the structure of the various groups that form Pravega and the processes used across the organization ranging from code contributions to voting and changes to governance.
 
 ## Mission
-Pravega targets the development of software for streaming data, with a special focus on storage. It is core to our mission to develop and grow a thriving community of software developers. The community drives the technical direction of Pravega via open discussions and votings; by design, very few actions are private. It accepts contributions from any interested party as long as such a contribution is performed according to the project Code of Conduct. The Pravega community aims to be diverse and inclusive. 
+Pravega targets the development of software for streaming data, with a special focus on storage. It is core to our mission to develop and grow a thriving community of software developers. The community drives the technical direction of Pravega via open discussions and votings; by design, very few actions are private. It accepts contributions from any interested party as long as such a contribution is performed according to the project Code of Conduct. The Pravega community aims to be diverse and inclusive.
 
 ## Code of Conduct
 Pravega follows the CNCF Code of Conduct:
@@ -12,7 +12,7 @@ https://github.com/cncf/foundation/blob/master/code-of-conduct.md
 ## Structure
 The project comprises two main groups of contributors:
 
-1- **Steering Committee**. The Steering Committee is responsible for general project oversight and for representing the project. They are owners of the `pravega` Github org. The committee responsibilities include interacting with the CNCF board, voting on new committers and members, and interacting with various CNCF bodies.
+1- **Steering Committee**. The Steering Committee is responsible for general project oversight and for representing the project. They are owners (maintainers) of the `pravega` Github org. The committee responsibilities include interacting with the CNCF board, voting on new committers and members, and interacting with various CNCF bodies. From a CNCF perspective, the Steering Committee members are the maintainers of the project.
 
 2- **Committer Team**. The repositories under the `pravega` Github org are split into four groups, each associate to a team: core, operators, ecosystem, and integration and tools. A committer is a member with write permission in one or more teams. Being a committer for a given team gives the member write permission to all repositories associated to the team. Members of the Steering Committee are committers in all teams.
 
@@ -23,18 +23,18 @@ The following are email lists available to the project:
 
 - cncf-pravega-dev@lists.cncf.io : this list is used to discuss topics related to development. It is common across all teams.
 - cncf-pravega-user@lists.cncf.io : this list is for users to ask questions about how to use Pravega software. It is common across all teams.
-- cncf-pravega-private@lists.cncf.io : this is a list reserved to the members of the steering committee. It should be used only for private topics, such as discussion on new committeers and voting of the same.
-- cncf-pravega-security@lists.cncf.io : security issues should not be disclosed openly. We prefer that uncovered vulnerabilities and related security issues are first reported to this list. The committers subscribed to the list have the obligation to respond to security reports acknowleding them and communicating with the reporter. 
-- cncf-pravega-conduct@lists.cncf.io : any violation of the project code of conduct should be communicated to this list. The project will investigate reports and take appropriate measures. 
+- cncf-pravega-private@lists.cncf.io : this is a list reserved to the members of the steering committee. It should be used only for private topics, such as discussion on new committers and voting of the same.
+- cncf-pravega-security@lists.cncf.io : security issues should not be disclosed openly. We prefer that uncovered vulnerabilities and related security issues are first reported to this list. The committers subscribed to the list have the obligation to respond to security reports acknowledging them and communicating with the reporter.
+- cncf-pravega-conduct@lists.cncf.io : any violation of the project code of conduct should be communicated to this list. The project will investigate reports and take appropriate measures.
 
 Any topic that requires discussion should use the prefix `[DISCUSS]` in the email subject. For example, say that the release manager of an upcoming release wants to discuss what is going to be in that release. The release manager starts an email thread with subject `[DISCUSS] Issues to be included in version x.y.z`. Vote email threads should be prefixed with `[VOTE]` as discussed below.
 
 It is necessary to include deadlines for responses to any given thread. The minimum time given to responders depends on the action, and the initial email must clearly say what the deadline is to close the thread.
 
-## New Committers and Steering Committee members 
-New committeers and Steering Committee members are voted by the Steering Committee. The Committer Teams are free to propose new committers to the Steering Committee. Proposals must provide evidence of the contributions of the proposed developer to justify the committership offer. The Steering Committee will discuss and vote such proposals privately.
+## New Committers and Steering Committee members
+New committers and Steering Committee members are voted by the Steering Committee. The Committer Teams are free to propose new committers to the Steering Committee. Proposals must provide evidence of the contributions of the proposed developer to justify the committership offer. The Steering Committee will discuss and vote such proposals privately.
 
-If a Steering Committee member wants to propose Joe as a new committer and wants to discuss Joe's merits before calling a vote, the member can start an email thread in the private list with title `[DISCUSS] Joe as new committer of Core Team`. Once the thread receives enough comments or the deadline stated in the proposal message passes, the member can start a `[VOTE]` thread for the committer. The decision on whether the vote passes or not depends on the rules described in the next section. 
+If a Steering Committee member wants to propose Joe as a new committer and wants to discuss Joe's merits before calling a vote, the member can start an email thread in the private list with title `[DISCUSS] Joe as new committer of Core Team`. Once the thread receives enough comments or the deadline stated in the proposal message passes, the member can start a `[VOTE]` thread for the committer. The decision on whether the vote passes or not depends on the rules described in the next section.
 
 ## Decision making
 
@@ -60,12 +60,13 @@ A valid, binding veto cannot be overruled. If a veto is cast, it must be accompa
 
 The following table lists the actions that require voting and the necessary condition for the vote to pass. Note that anyone can vote on public votes, which in fact helps to gain more confidence on the direction of the vote
 
-Action | Approval | Binding | Visibility | Min. time (days) 
+Action | Approval | Binding | Visibility | Min. time (days)
 -------|--------|---------|--------|-----------
 New committer | Lazy Consensus | Steering Committee | Private | 3
 New Steering Committee member | Lazy Consensus | Steering Committee | Private | 3
-Removal of Committer | 2/3 Majority | Steering Committeee | Private | 7
-Removal of Steering Committee member | 2/3 Majority | Steering Committee | Private | 7 
+Removal of Committer | 2/3 Majority | Steering Committee | Private | 7
+Removal of Steering Committee member | 2/3 Majority | Steering Committee | Private | 7
+Change to Committer Team structure | 2/3 Majority | Steering Committee | Private | 7
 Change to bylaws (this document) | Lazy Consensus | Steering Committee | Public | 7
 Change to Code of Conduct | 2/3 Majority | Steering Committee | Public | 7
 Change to release process | 2/3 Majority | Steering Committee | Public | 7
