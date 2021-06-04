@@ -73,7 +73,7 @@ Change to release process | 2/3 Majority | Steering Committee | Public | 7
 Create a new repository | 2/3 Majority | Steering Committee | Public | 7
 Release | Lazy Majority (must include a Steering Committee vote) | Committer + Steering Committee | Public | 3
 Release plan | Lazy Majority | Committer | Public | 3
-Code change (Pull Request) | Lazy Approval | Committer | Public | 1
+Code change (Pull Request) | Lazy Approval falling back to Lazy Majority upon veto | Committer | Public | 1
 
 ### Conducting a vote
 
@@ -82,9 +82,9 @@ Votes unrelated to features and code changes must be conducted by email. Feature
 #### Email
 To start a vote, send a message to the appropriate email list and prefix the subject with `[VOTE]`. For example, if contributors are expected to vote on a release candidate, then the subject should be `[VOTE] Release x.y.z Candidate 0`. Votes for new committers and Steering Committee must also be prefixed accordingly.
 
-The initial vote message must contain the deadline for contributors to vote. Once the deadline has passed, the initiator can decide to conclude or extend it as needed. One reason for extending is not having enough votes.
+The initial vote message must contain the deadline for contributors to vote. Once the deadline has passed, the initiator can decide to conclude or extend it as needed. One reason for extending is not having enough votes. See the actions table above for the corresponding time bounds according to the different actions.
 
 Once the vote completes, the initiator should send a message with a subject prefixed with `[RESULT][VOTE]` that states the result of the vote and summarizes the votes cast.
 
 #### GitHub issues and pull requests
-Votes on features and code changes can be conducted and recorded directly on GitHub. When a new feature is proposed via an issue and possibly an accompanying wiki design, contributors are encouraged to seek committer support prior to creating a pull request. The final decision for any code change must be taken directly on the pull request that proposes such changes. To eligible for merge, the pull request must be approved by committer according to the action description in the table above.
+Votes on features and code changes can be conducted and recorded directly on GitHub. When a new feature is proposed via an issue and possibly an accompanying wiki design, contributors are encouraged to seek committer support prior to creating a pull request. The final decision for any code change must be taken directly on the pull request that proposes such changes. To be eligible for merge, the pull request must be approved by committer according to the action description in the table above.
