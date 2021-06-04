@@ -24,8 +24,8 @@ The following are email lists available to the project:
 - cncf-pravega-dev@lists.cncf.io : this list is used to discuss topics related to development. It is common across all teams.
 - cncf-pravega-user@lists.cncf.io : this list is for users to ask questions about how to use Pravega software. It is common across all teams.
 - cncf-pravega-maintainers@lists.cncf.io : this is a list reserved to the members of the steering committee, which are also the maintainers of Pravega according to CNCF. This list has two main uses:
-   - Private topics, such as discussion on new committers and voting of the same;
-   - Communication from CNCF.
+   - Discussing of private Steering Committee topics, such as discussion on new committers and voting of the same;
+   - Receiving communication from CNCF, such as announcements and requests.
 - cncf-pravega-security@lists.cncf.io : security issues should not be disclosed openly. We prefer that uncovered vulnerabilities and related security issues are first reported to this list. The committers subscribed to the list have the obligation to respond to security reports acknowledging them and communicating with the reporter.
 - cncf-pravega-conduct@lists.cncf.io : any violation of the project code of conduct should be communicated to this list. The project will investigate reports and take appropriate measures.
 
