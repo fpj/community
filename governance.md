@@ -22,7 +22,7 @@ The primary way of communicating within the project is email. Contributors are f
 The following are email lists available to the project:
 
 - cncf-pravega-dev@lists.cncf.io : this list is used to discuss topics related to development. It is common across all teams.
-- cncf-pravega-user@lists.cncf.io : this list is for users to ask questions about how to use Pravega software. It is common across all teams.
+- cncf-pravega-users@lists.cncf.io : this list is for users to ask questions about how to use Pravega software. It is common across all teams.
 - cncf-pravega-maintainers@lists.cncf.io : this is a list reserved to the members of the steering committee, which are also the maintainers of Pravega according to CNCF. This list has two main uses:
    - Discussing private Steering Committee topics, such as discussion on new committers and voting of the same;
    - Receiving communication from CNCF, such as announcements and requests.
